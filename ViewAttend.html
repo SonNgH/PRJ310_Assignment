@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>View Attendance</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+</head>
+
+<body>
+    <h1 class="title">View Attendance</h1>
+    <form>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Status</th>
+            <th>Comment</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Nguyen Hong Son</td>
+            <td><input checked="checked" type="radio" value="Absent" name="attend1"/>Absent&nbsp;<input type="radio" value="Present" name="attend1"/>Present</td>
+            <td><input type="text"></td>
+        </tr>
+    </table>
+    <input type="button" value="Save" onclick="getElementById('save').innerHTML = 'Save successfully!'"/>
+    </form>
+    <p id="save"></p>
+</body>
+</html>
