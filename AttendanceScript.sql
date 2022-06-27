@@ -134,10 +134,10 @@ SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE TABLE [dbo].[Instructor](
-	[InstructorID] [nvarchar](150) NOT NULL,
-	[InstructorName] [nvarchar](150) NOT NULL,
-	[InstructorEmail] [nvarchar](150) NOT NULL,
+CREATE TABLE [dbo].[Lecturer](
+	[LecturerID] [nvarchar](150) NOT NULL,
+	[LecturerName] [nvarchar](150) NOT NULL,
+	[LecturerEmail] [nvarchar](150) NOT NULL,
  CONSTRAINT [PK_Instructor] PRIMARY KEY CLUSTERED 
 (
 	[InstructorID] ASC
